@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="centrado">
+        <div class="card" style="width: 30rem;">
+            <div class="card-body">
+                <h1 class="text-center mt-3"> Cargar artículo</h1>
+                    <form class="formulario mt-4">
+                        <div class="mb-3 input-icono input-icono-select">
+                            <select class="form-select form-select-lg mb-3">
+                                <option selected>Tipo de Subsistema</option>
+                                <option value="1">Universidad Tecnológica</option>
+                                <option value="2">Universidad Politécnica</option>
+                                <option value="3">Instituto Tecnológico</option>
+                              </select>
+                            <i class="fa-solid fa-building-columns color-icono"></i>
+                        </div>
+              
+                        <div class="mb-3 input-icono">
+                          <input  class="form-control form-control-lg"  id="titulo" placeholder="Titulo del articulo" />
+                          <i class="fa-solid fa-book color-icono"></i>
+                        </div>
+
+                        <div class="mb-3 input-icono">
+                            <input  class="form-control form-control-lg"  id="autor" placeholder="Autor" />
+                            <i class="fa-solid fa-user color-icono"></i>
+                          </div>
+
+                          <div class="mb-3 input-icono text-area">
+                            <textarea class="form-control form-control-lg" placeholder="Breve resumen del articulo" id="resumen" style="height: 100px"></textarea>
+                            <i class="fa-solid fa-book-open color-icono"></i>
+
+                        </div>
+
+                          <div class="mb-3 input-icono">
+                            <input type="file"  class="form-control" id="archivo" placeholder="Elegir archivo" multiple />
+                            <i class="fa-solid fa-file color-icono"></i>
+                          </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn boton btn-lg btn-block">Cargar archivo</button>
+                        </div>
+                        
+              
+                      </form>
+              
+            </div>
+          </div>
+    </div>
+</div>

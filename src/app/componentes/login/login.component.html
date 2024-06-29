@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="centrado">
+        <div class="card" style="width: 30rem;">
+            <div class="card-body">
+                <h1 class="text-center mt-3"> Login</h1>
+                    <form class="formulario mt-4">
+                        <div class="mb-3 input-icono">
+                            <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Correo Electronico">
+                            <i class="fa-solid fa-envelope color-icono" ></i>
+                          </div>
+              
+                        <div class="mb-3 input-icono">
+                          <input type="password"  class="form-control form-control-lg"  id="form1Example23" placeholder="Contraseña" />
+                          <i class="fa-solid fa-key color-icono" ></i>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn boton btn-lg btn-block" [routerLink]="'/carga'">Login</button>
+                        </div>
+              
+                        <p class="text-center pt-3">Al registrate, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+
+                        <p class="text-center">¿No tienes una cuenta? <a type="button" class="link" [routerLink]="'/registro'">Registrate</a> 
+                        </p>
+                        
+              
+                      </form>
+              
+            </div>
+          </div>
+    </div>
+</div>

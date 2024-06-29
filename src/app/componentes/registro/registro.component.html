@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="centrado">
+        <div class="card" style="width: 30rem;">
+            <div class="card-body">
+                <h1 class="text-center mt-3"> Regístrate</h1>
+                    <form class="formulario mt-4">
+                        <div class="mb-3 input-icono">
+                            <input class="form-control form-control-lg" id="nombre" placeholder="Nombre completo">
+                            <i class="fa-solid fa-user color-icono"></i>
+                        </div>
+              
+                        <div class="mb-3 input-icono">
+                          <input type="email"  class="form-control form-control-lg"  id="email" placeholder="Correo Electrónico" />
+                          <i class="fa-solid fa-envelope color-icono"></i>
+                        </div>
+
+                        <div class="mb-3 input-icono">
+                            <input type="number"  class="form-control form-control-lg"  id="telefono" placeholder="Teléfono/Celular" />
+                            <i class="fa-solid fa-phone-flip color-icono"></i>
+                          </div>
+
+                          <div class="mb-3 input-icono">
+                            <input type="password"  class="form-control form-control-lg"  id="contraseña" placeholder="Contraseña" />
+                            <i class="fa-solid fa-key color-icono"></i>
+                          </div>
+
+                          <div class="mb-3 input-icono">
+                            <input type="password"  class="form-control form-control-lg"  id="contraseña2" placeholder="Repetir contraseña" />
+                            <i class="fa-solid fa-rotate-right color-icono"></i>
+                          </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn boton btn-lg btn-block" [routerLink]="'/login'">Regístrate</button>
+                        </div>
+              
+                        <p class="text-center pt-3">Al registrate, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+
+                        <p class="text-center">¿Ya tienes una cuenta? <a type="button" class="link" [routerLink]="'/login'">Iniciar Sesión</a> 
+                        </p>
+                        
+              
+                      </form>
+              
+            </div>
+          </div>
+    </div>
+</div>
